@@ -8,7 +8,7 @@ from encryption import makeHash
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*" : {"origins": "*"}})
 
-conn_url = "mongodb+srv://batch5:batch5@cluster0.dblogvz.mongodb.net/test"
+conn_url = ""
 
 try:
     client = pymongo.MongoClient(conn_url)
