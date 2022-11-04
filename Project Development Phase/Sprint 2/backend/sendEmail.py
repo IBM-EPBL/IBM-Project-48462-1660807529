@@ -2,11 +2,11 @@ import smtplib
 from encryption import makeHash;
 
 def sendEmail(email):
-    gmail_user = '1905122cse@cit.edu.in'
-    gmail_password = 'Svs@2001'
+    gmail_user = ''
+    gmail_password = ''
     
     sent_from = gmail_user
-    to = ["prembalaraman056@gmail.com"] 
+    to = [email] 
     subject = 'Account verification'
     body = 'Greetings \n click this link to check verify your account \n\n http://localhost:3000/verify/email/'+email+"/"+makeHash(email)
 
