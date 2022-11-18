@@ -1,0 +1,24 @@
+.errorMessageH1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  font-weight: lighter;
+  color: white;
+  padding: 2%;
+  position: absolute;
+  z-index: 10;
+  border-radius: 0.5rem;
+  bottom: 5vh;
+  right: 5vw;
+  max-width: 400px;
+  font-family: var(--font-two);
+  animation: errorMessage 1.5s linear 1 alternate;
+}
+
+@keyframes errorMessage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

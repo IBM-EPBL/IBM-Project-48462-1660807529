@@ -1,0 +1,11 @@
+.about-outer {
+  padding: 48px 40px;
+  border-radius: 12px;
+  background: rgba(00, 00, 00, 0.5);
+  margin: 108px 40px;
+  font-family: var(--font-one);
+}
+
+.about-outer > p {
+  font-family: var(--font-two);
+}
