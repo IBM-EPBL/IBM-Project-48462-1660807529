@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=PT+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Ubuntu&display=swap");
+:root {
+  /* font-family: 'Noto Sans', sans-serif;
+  font-family: 'PT Mono', monospace; */
+  /* font-family: 'Cabin', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+  --font-one: "Cabin", sans-serif;
+  --font-two: "Noto Sans", sans-serif;
+  --color-one: rgb(64, 39, 206);
+}
